@@ -1,0 +1,27 @@
+.counter-box {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(102, 51, 153, 0.116);
+
+  h1 {
+    font-size: 60px;
+  }
+
+  .counter-btn-box {
+    background-color: rebeccapurple;
+    padding: 50px 100px;
+    border-radius: 10px;
+
+    button {
+      padding: 10px 20px;
+      margin: 0 5px;
+      font-size: 20px;
+      border: 2px solid rgba(255, 255, 255, 0.856);
+      border-radius: 5px;
+      background-color:rgb(255, 173, 211) ;
+    }
+  }
+}
